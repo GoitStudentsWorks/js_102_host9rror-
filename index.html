@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/js_102_host9rror-/assets/Favicon-77a09adb.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Portfolio</title>
+    <script type="module" crossorigin src="/js_102_host9rror-/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_102_host9rror-/assets/vendor-67234e59.js">
+    <link rel="stylesheet" href="/js_102_host9rror-/assets/vendor-2aba1e47.css">
+    <link rel="stylesheet" href="/js_102_host9rror-/assets/index-44d2616f.css">
+  </head>
+  <body>
+    <header>
+      <div class="background"></div>
+
+<div class="header">
+  <div class="container header-container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="header-logo">
+        <img
+          src="/js_102_host9rror-/assets/logo-5b9c5640.png"
+          srcset="/js_102_host9rror-/assets/logo-5b9c5640.png 1x, /js_102_host9rror-/assets/logo@2x-7a550cf3.png 2x"
+          alt="Logo"
+        />
+
+        <span>jefferson*</span>
+      </a>
+
+      <span class="menu-text">Menu</span>
+
+      <ul class="header-menu">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#project-id">Projects</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <a href="#work-together" class="order-btn">Order the project</a>
+    </nav>
+    <button
+      class="menu-open_btn"
+      type="button"
+      id="menu-open_btn"
+      title="Button for open mobile menu"
+    >
+      <svg class="menu-open_icon" width="32" height="32">
+        <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+
+  <div class="mobile-menu" id="mobile-menu">
+    <button
+      type="button"
+      class="close-btn"
+      id="close-mobile-menu"
+      name="Close mobile menu"
+    >
+      <svg class="close-btn-img" width="32" height="32">
+        <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-mobile-menu-close"></use>
+      </svg>
+    </button>
+
+    <nav class="mobile-navigation">
+      <ul class="mobile-header-menu">
+        <li class="mobile-header-menu-item">
+          <a class="mobile-header-menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="mobile-header-menu-item">
+          <a class="mobile-header-menu-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="mobile-header-menu-item">
+          <a class="mobile-header-menu-link" href="#project-id">Projects</a>
+        </li>
+        <li class="mobile-header-menu-item">
+          <a class="mobile-header-menu-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="#work-together" class="order-btn-mobile">Order the project</a>
+  </div>
+</div>
+
+      <section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Hello. I’m Fullstack developer Lloyd Jefferson.</h1>
+    <ul class="hero-links-list">
+      <li class="hero-links-item">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          class="hero-social-link"
+          target="_blank"
+          >IG</a
+        >
+      </li>
+      <li class="hero-links-item">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          class="hero-social-link"
+          target="_blank"
+          >FB</a
+        >
+      </li>
+      <li class="hero-links-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          class="hero-social-link"
+          target="_blank"
+          >YT</a
+        >
+      </li>
+      <li class="hero-links-item">
+        <a
+          href="https://host9rror.github.io/projectJavaBenders12/"
+          class="hero-social-link"
+          target="_blank"
+          >GH</a
+        >
+      </li>
+      <li class="hero-links-item hero-item-email">
+        <a href="mailto:lloydjefferson@gmail.com" class="hero-social-link"
+          >lloydjefferson@gmail.com</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </header>
+    <main>
+      <section class="about section " id="about-me">
+  <h2 class="title-section visually-hidden">About me</h2>
+  <div class="container">
+    <!-- <h2>About me</h2> -->
+    <div class="wrapper-title-img">
+      <div class="wrapper-about-title">
+        <h3>
+          I work with people all over the world to create impressive and
+          <span class="title-red">functional</span>
+          <span class="title-light-brown">websites</span> that reflect each
+          client's unique personality.
+        </h3>
+      </div>
+      <div class="wrapper-about-img">
+        <picture>
+          <source media="(min-width: 1439.98px)" srcset="/js_102_host9rror-/assets/loyd-photo-397f36be.png 1x, /js_102_host9rror-/assets/loyd-photo@2x-afab557d.png 2x" />
+          <source media="(min-width: 767.98px)" srcset="/js_102_host9rror-/assets/loyd-photo-59ba4341.png 1x, /js_102_host9rror-/assets/loyd-photo@2x-86ff18a3.png 2x" />
+          <source media="(max-width: 374.98px)" srcset="/js_102_host9rror-/assets/loyd-photo-755ca6c1.png 1x, /js_102_host9rror-/assets/loyd-photo@2x-e4bbcce0.png 2x" />
+          <img src="/js_102_host9rror-/assets/loyd-photo-755ca6c1.png" alt="Lloyd Jefferson" width="343" height="500" />
+        </picture>
+      </div>
+    </div>
+    <div class="experience">
+      <ul class="experience-list accordion-container">
+        <li class="experience-item about-me ac">
+          <div class="wrapper-item-top ac-header">
+            <div class="ac-trigger buttons-block">
+              <h4>About me</h4>
+              <button class="button-experience " type="button" aria-label="Slider button">
+                <svg class="slider-arrow rotate-180" width="10" height="10">
+                  <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+                </svg>
+              </button>
+            </div>
+
+          </div>
+          <div class="wrapper-text ac-panel">
+            <p class="about-me-desc">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages ​​and technologies, always ready
+              to improve my skills. I always follow the latest trends and look
+              for unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </p>
+            <p class="about-me-desc">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work.I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p>
+          </div>
+        </li>
+        <li class="experience-item role ac">
+          <div class="wrapper-item-top ac-header">
+            <div class="ac-trigger buttons-block">
+              <h4>Role</h4>
+              <button class="button-experience" type="button" aria-label="Slider button">
+                <svg class="slider-arrow" width="10" height="10">
+                  <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+                </svg>
+              </button>
+            </div>
+
+          </div>
+          <div class="wrapper-text ac-panel">
+            <p>Frontend development</p>
+            <p>HeadlessCMS,Wordpress</p>
+            <p>Blender(enjoy)</p>
+          </div>
+        </li>
+        <li class="experience-item education ac">
+          <div class="wrapper-item-top ac-header">
+            <div class="ac-trigger buttons-block">
+              <h4>Education</h4>
+              <button class="button-experience" type="button" aria-label="Slider button ">
+                <svg class="slider-arrow" width="10" height="10">
+                  <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+                </svg>
+              </button>
+            </div>
+
+          </div>
+          <div class="wrapper-text ac-panel">
+            <p>
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </p>
+            <p>
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </p>
+            <p>2020 - 2022 / Advanced Blender Animation Techniques, Udemy</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="skills">
+      <div class="skills-container swiper-container">
+        <div class="about-swiper">
+          <ul class="skills-list swiper-wrapper">
+            <li class="skills-item swiper-slide">
+              <p>HTML/CSS</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>JavaScript</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>React</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>Node.js</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>React Native</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>Figma</p>
+            </li>
+            <li class="skills-item swiper-slide">
+              <p>Soft Skills</p>
+            </li>
+          </ul>
+        </div>
+        <button class="skills-swiper-button" type="button">
+          <svg class="svg-button" width="28" height="28">
+            <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+</section>
+      <section id="benefits" class="section">
+  <div class="container">
+    <h2 class="benefits-title">Benefits of working with me</h2>
+    <div class="benefits-box">
+      <ul class="benefits-list">
+        <li class="benefits-list-item">
+          <div class="benefits-icons-container">
+            <svg class="benefits-icons" width="24" height="24">
+              <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-expertise"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title-item">Expertise</h3>
+          <p class="benefits-description">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="benefits-icons-container">
+            <svg class="benefits-icons" width="24" height="24">
+              <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-communication"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title-item">Communication</h3>
+          <p class="benefits-description">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="benefits-icons-container">
+            <svg class="benefits-icons" width="24" height="24">
+              <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-art"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title-item">Art</h3>
+          <p class="benefits-description">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="benefits-icons-container">
+            <svg class="benefits-icons" width="24" height="24">
+              <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-time"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title-item">Urgent execution</h3>
+          <p class="benefits-description">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+      <a href="#work-together" class="benefits-btn">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section class="project-section" id="project-id">
+  <div class="container">
+    <h2 class="project-title">PROJECTS</h2>
+
+    <div class="swiper-container project">
+      <ul class="swiper-wrapper project-swiper-wraper project-main-list">
+        <li class="swiper-slide project-swiper-slide">
+          <div class="project-content">
+            <div class="project-main-part">
+              <ul class="project-list">
+                <li class="project-list-item">#react</li>
+                <li class="project-list-item">#js</li>
+                <li class="project-list-item">#node js</li>
+                <li class="project-list-item">#git</li>
+              </ul>
+              <h3 class="project-content-title">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h3>
+              <button class="project-content-btn">
+                <a href="https://host9rror.github.io/projectJSBenders12/"
+                  >See project</a
+                >
+              </button>
+            </div>
+            <div class="project-box">
+              <img
+                class="project-box-image"
+                src="/js_102_host9rror-/assets/proj-1-61e9cd73.png"
+                srcset="/js_102_host9rror-/assets/proj-1-75689eb2.png , /js_102_host9rror-/assets/proj-1@2x-0b0703df.png "
+                alt="photo_1"
+              />
+            </div>
+          </div>
+        </li>
+
+        <li class="swiper-slide project-swiper-slide">
+          <div class="project-content">
+            <div class="project-main-part">
+              <ul class="project-list">
+                <li class="project-list-item">#java</li>
+                <li class="project-list-item">#android</li>
+                <li class="project-list-item">#firebase</li>
+                <li class="project-list-item">#restapi</li>
+              </ul>
+              <h3 class="project-content-title">
+                Mobile App Development: Java, Android, Firebase, REST API
+              </h3>
+              <button class="project-content-btn">
+                <a href="https://host9rror.github.io/projectJSBenders12/"
+                  >See project</a
+                >
+              </button>
+            </div>
+            <div class="project-box">
+              <img
+                class="project-box-image"
+                src="/js_102_host9rror-/assets/proj-2-4f99dd54.png"
+                srcset="/js_102_host9rror-/assets/proj-2-e2150ede.png , /js_102_host9rror-/assets/proj-2@2x-16dfad64.png "
+                alt="photo_2"
+              />
+            </div>
+          </div>
+        </li>
+
+        <li class="swiper-slide project-swiper-slide">
+          <div class="project-content">
+            <div class="project-main-part">
+              <ul class="project-list">
+                <li class="project-list-item">#java</li>
+                <li class="project-list-item">#android</li>
+                <li class="project-list-item">#firebase</li>
+                <li class="project-list-item">#restapi</li>
+              </ul>
+              <h3 class="project-content-title">
+                Mobile App Development: Java, Android, Firebase, REST API
+              </h3>
+              <button class="project-content-btn">
+                <a href="https://host9rror.github.io/projectJSBenders12/"
+                  >See project</a
+                >
+              </button>
+            </div>
+            <div class="project-box">
+              <img
+                class="project-box-image"
+                src="/js_102_host9rror-/assets/proj-3-36a70ce1.png"
+                srcset="/js_102_host9rror-/assets/proj-3-06ef396a.png , /js_102_host9rror-/assets/proj-3@2x-31dd483a.png "
+                alt="photo_3"
+              />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="project-arrow">
+      <button class="project-arrow-prev project-button-navigation">
+        <svg class="arrow-left">
+          <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+      <button class="project-arrow-next project-button-navigation">
+        <svg class="arrow-right">
+          <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="faq section" id="faq">
+  <div class="container">
+    <h1>FAQ</h1>
+    <div class="faq-border">
+      <ul class="faq-list accordion-container">
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              What programming languages ​​are most often used in your project?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                In the field of web development, there are various technologies
+                and programming languages. Typically, this includes a
+                combination of frontend (client side) and backend (server side)
+                languages.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              How can I contact you?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                In the field of web development, there are various technologies
+                and programming languages. Typically, this includes a
+                combination of frontend (client side) and backend (server side)
+                languages.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              What are the deadlines for the project?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                The terms of project implementation depend to a large extent on
+                a number of factors, such as the scope of the project, its
+                complexity, and the availability of resources. Determining exact
+                deadlines is a difficult task, and it usually occurs during the
+                planning phase of the project.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              Do you provide advice or support?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                The terms of project implementation depend to a large extent on
+                a number of factors, such as the scope of the project, its
+                complexity, and the availability of resources. Determining exact
+                deadlines is a difficult task, and it usually occurs during the
+                planning phase of the project.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              What payment methods do you accept?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                Payment through credit and debit cards such as Visa, MasterCard,
+                specialized electronic payment systems such as PayPal, as well
+                as payments in cryptocurrencies such as Bitcoin, Ethereum and
+                others.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="faq-heading ac-header">
+            <button type="button" class="ac-trigger heading">
+              What does the process of developing a software product look like
+              from idea to implementation?
+            </button>
+            <button type="button" class="accordion-btn">
+              <svg width="10" height="10">
+                <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ac-panel">
+            <div class="faq-content is-hidden">
+              <p>
+                Payment through credit and debit cards such as Visa, MasterCard,
+                specialized electronic payment systems such as PayPal, as well
+                as payments in cryptocurrencies such as Bitcoin, Ethereum and
+                others.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section id="covers" class="covers-section">
+  <div class="container covers">
+    <h1 class="visually-hidden">Covers</h1>
+
+    <div class="covers-rows">
+      <div class="row">
+        <ul class="covers-projects">
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-1-f08d8701.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-1@2x-a5cd7d2c.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-1-f08d8701.png"
+                  alt="Project 1"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-3-a89e002c.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-3@2x-190faba2.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-3-a89e002c.png"
+                  alt="Project 3"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-2-04e6e847.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-2@2x-597a51d0.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-2-04e6e847.png"
+                  alt="Project 2"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <ul class="covers-projects">
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-4-35eda970.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-4@2x-dc09390a.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-4-35eda970.png"
+                  alt="Project 4"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-6-b92f6a4e.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-6@2x-6200fe4d.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-6-b92f6a4e.png"
+                  alt="Project 6"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-7-a0c41a8b.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-7@2x-aa01d1b8.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-7-a0c41a8b.png"
+                  alt="Project 7"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <ul class="covers-projects">
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-8-df3ebfed.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-8@2x-1efd5c72.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-8-df3ebfed.png"
+                  alt="Project 8"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-9-fe196e34.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-9@2x-e529d3c6.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-9-fe196e34.png"
+                  alt="Project 9"
+                />
+              </picture>
+            </a>
+          </li>
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-10-f941c41c.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="../img/covers/project-10@2x.png"
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-10-f941c41c.png"
+                  alt="Project 10"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <ul class="covers-projects">
+          <li class="cover-item animate">
+            <a class="covers-link" href="">
+              <picture>
+                <source
+                  srcset="/js_102_host9rror-/assets/project-11-dabdde39.png "
+                  media="(max-width: 320px)"
+                />
+                <source
+                  srcset="/js_102_host9rror-/assets/project-11@2x-9a17d990.png "
+                  media="(max-width: 1200px)"
+                />
+                <img
+                  class="covers-image"
+                  src="/js_102_host9rror-/assets/project-11-dabdde39.png"
+                  alt="Project 11"
+                />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews-section" id="reviews-id">
+  <div class="container reviews">
+    <h2 class="reviews-title">REVIEWS</h2>
+
+    <div class="reviews-swiper-container swiper-container">
+      <div class="reviews-wrapper swiper-wrapper">
+        <ul class="reviews-list"></ul>
+      </div>
+
+      <div class="reviews-button">
+        <button type="button" class="btn-arrow-left">
+          <svg class="arrow-left-icon" width="32" height="32">
+            <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+
+        <button type="button" class="btn-arrow-right">
+          <svg class="arrow-right-icon" width="32" height="32">
+            <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer>
+      <section id="work-together" class="section-footer">
+  <div class="footer-work container">
+    <div class="footer-logo">
+      <div class="footer-img">
+        <img
+          srcset="/js_102_host9rror-/assets/lloyd-logo@2x-22d106e8.png 2x, /js_102_host9rror-/assets/lloyd-logo-77865919.png 1x"
+          src="./img/work-together/lloyd-logo.png "
+          alt="Lloyd-logo"
+        />
+      </div>
+
+      <h1 class="footer-title">Let’s <span class="title-red">work</span></h1>
+    </div>
+    <h1 class="footer-title">
+      <span class="title-white">together</span>
+    </h1>
+
+    <form class="footer-form">
+      <label class="label-form" for="email">Email:</label>
+      <input
+        class="footer-input-email"
+        type="email"
+        name="email"
+        placeholder="clients@gmail.com"
+        required
+      />
+      <label class="label-form" for="comment">Comments:</label>
+      <input
+        class="footer-input-comment"
+        name="comment"
+        placeholder="comments"
+        required
+      />
+      <button class="footer-btn" type="submit">Send</button>
+    </form>
+
+    <div class="footer-contact-links">
+      <a href="mailto:lloydjefferson@gmail.com" class="footer-contact-btn"
+        >lloydjefferson@gmail.com</a
+      >
+      <a href="tel:+380111111111" class="footer-contact-btn"
+        >+380 11 1111 11 11</a
+      >
+    </div>
+
+    <div class="backdrop backdrop-hidden">
+      <div class="backdrop-container">
+        <button
+          type="button"
+          class="footer-close-btn"
+          id="footer-close-btn"
+          name="Close-mobile-menu"
+        >
+          <svg class="close-btn-img" width="32" height="32">
+            <use href="/js_102_host9rror-/assets/icons-72cfc451.svg#icon-mobile-menu-close"></use>
+          </svg>
+        </button>
+        <div class="container-message">
+          <h3 class="footer-modal-header"></h3>
+          <p class="footer-modal-p"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </footer>
+    
+  </body>
+</html>
