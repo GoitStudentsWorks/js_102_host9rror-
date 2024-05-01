@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/projectJSBenders12/",
+    "build": "vite build --base=/js_102_host9rror-/",
     "preview": "vite preview"
   },
   "devDependencies": {
